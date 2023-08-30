@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone - CodeClause Internship</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/127e023c27.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="nav-left">
+                <img src="./Img/menu-icon.png" class="nav-icons" id="menu-icon" alt="">
+                <img id="youtube-logo" src="./Img/youtube-logo.png" alt="youtube image not loaded">
+            </div>
+            <div class="nav-mid">
+                <input type="search" placeholder="Search" class="search">
+                <img src="./Img/search-icon.png" class="nav-icons search-btn" alt="">
+            </div>
+            <div class="nav-right">
+                <img src="./Img/video-icon.png" class="nav-icons" alt="">
+                <img src="./Img/bell-icon.png" class="nav-icons" alt="">
+                <img id="profile-pic" src="./Img/profile-pic.jpg" alt="profile pic not loaded">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-left">
+            <a href="#" class="side-items selected"><img class="side-img"  src="./Img/home-icon.png" alt="">Home</a>
+            <a href="#" class="side-items"><img class="side-img" src="./Img/short-icon.png" alt="">Shorts</a>
+            <a href="#" class="side-items"><img class="side-img" src="./Img/library-icon.png" alt="">Subscription</a>
+            <hr style="border: none; border: 1px solid #cebcbc;">
+            <a href="#" class="side-items"><img class="side-img" src="./Img/library-icon.png" alt="">Library</a>
+            <a href="#" class="side-items"><img class="side-img" src="./Img/history-icon.png" alt="">History</a>
+            <a href="#" class="side-items"><img class="side-img" src="./Img/your-video-icon.png" alt="">Your videos</a>
+            <a href="#" class="side-items"><img class="side-img" src="./Img/watch-later.png" alt="">Watch Later</a>
+            <a href="#" class="side-items"><img class="side-img" src="./Img/like-icon.png" alt="">Liked Videos</a>
+            <a href="#" class="side-items"><img class="side-img" src="./Img/down-icon.png" alt="">Show more</a>
+        </div>
+        
+        <div class="selection">
+            <button class="selection-items" id="All">All</button>
+            <button class="selection-items">Live</button>
+            <button class="selection-items">Computer Programming</button>
+            <button class="selection-items">Gaming</button>
+            <button class="selection-items">Editing</button>
+            <button class="selection-items">Sales</button>
+            <button class="selection-items">Intelligence</button>
+            <button class="selection-items">Civil Services Exams</button>
+            <button class="selection-items">Thoughts</button>
+            <button class="selection-items">Podcast</button>
+            <button class="selection-items">Music</button>
+            <button class="selection-items">News</button>
+            <button class="selection-items">Debate</button>
+            <button class="selection-items">Recently Uploaded</button>
+            <button class="selection-items">For you</button>
+        </div>
+        
+        <div class="main-right">
+            <!-- THis is where the youtube video will be loaded using Youtube API -->
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
